@@ -1,6 +1,7 @@
 <?php
-session_start();
-require_once('cabecalho.php');
+session_start();    
+require_once("cabecalho.php");
+require_once("logica-usuario.php");
 include("conecta.php");
 ?>
 <div id="content">

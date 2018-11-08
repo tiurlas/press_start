@@ -1,5 +1,4 @@
 <?php
-
 session_start();
 function verificaUsuario() {
   if(!usuarioEstaLogado()) {
@@ -25,3 +24,4 @@ function logout(){
   session_destroy();
   session_start();
 }
+?>

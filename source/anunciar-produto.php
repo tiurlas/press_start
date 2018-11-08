@@ -85,22 +85,6 @@ $resultado = anunciaProduto($conexao, $idUsuario, $anuncio,
 $status, $marca, $modelo, $categoria, $valor, $descricao,
 $cidade, $estado, $foto1, $foto2, $foto3);
 
-
-/*
-$query = "INSERT INTO produtos (idUsuario, nome, status, marca, modelo, categoria, precoVenda, descricao, 
-    cidade, estado, foto1, foto2, foto3) VALUES ('$idUsuario', '$anuncio', '$status', '$marca', '$modelo', 
-    '$categoria', '$valor', '$descricao', '$cidade', '$estado', '$foto1', '$foto2', '$foto3')";
-
-if (mysqli_query($conexao, $query)) {	
-	$_SESSION["confirm"]= "Produto anunciado com sucesso $idUsuario";
-} else {
-	echo "Error: " . $query . "<br>" . mysqli_error($conexao);
-}
-
-mysqli_close($conexao);
-
-header("Location: index.php");
-*/
 die();
 
 ?>

@@ -1,6 +1,6 @@
 <?php
 session_start();
-  require_once('cabecalho.php');
+require_once('cabecalho.php');
 ?>
 
 <section style="background: url('img/photogrid.jpg') center center repeat; background-size: cover;" class="relative-positioned">

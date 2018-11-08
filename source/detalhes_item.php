@@ -1,22 +1,8 @@
-<!-- <div id="heading-breadcrumbs">
-    <div class="container">
-        <div class="row d-flex align-items-center flex-wrap">
-            <div class="col-md-7">
-                <h1 class="h2">White Blouse Armani</h1>
-            </div>
-            <div class="col-md-5">
-                <ul class="breadcrumb d-flex justify-content-end">
-                    <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                    <li class="breadcrumb-item"><a href="shop-category.html">Ladies</a></li>
-                    <li class="breadcrumb-item"><a href="shop-category.html">Tops</a></li>
-                    <li class="breadcrumb-item active">White Blouse Armani</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div> -->
 <?php
-    require_once('cabecalho.php');
+    session_start();    
+    require_once("cabecalho.php");
+    require_once("logica-usuario.php");
+    
 ?>
 <div id="content">
     <div class="container">
@@ -58,7 +44,7 @@
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div><!--
                 <div class="panel panel-default sidebar-menu">
                     <div class="panel-heading d-flex align-items-center justify-content-between">
                         <h3 class="h4 panel-title">Brands</h3><a href="#" class="btn btn-sm btn-danger"><i class="fa fa-times-circle"></i><span
@@ -91,7 +77,7 @@
                             <button class="btn btn-sm btn-template-outlined"><i class="fa fa-pencil"></i> Apply</button>
                         </form>
                     </div>
-                </div>
+                </div>-->
             </div>
             <!-- LEFT COLUMN _________________________________________________________-->
             <div class="col-lg-9">
@@ -157,7 +143,7 @@
                                 skinny jeans and pumps.</em></p>
                     </blockquote>
                 </div>
-                <div id="product-social" class="box social text-center mb-5 mt-5">
+                <!--<div id="product-social" class="box social text-center mb-5 mt-5">
                     <h4 class="heading-light">Show it to your friends</h4>
                     <ul class="social list-inline">
                         <li class="list-inline-item"><a href="#" data-animate-hover="pulse" class="external facebook"><i
@@ -168,7 +154,7 @@
                                     class="fa fa-twitter"></i></a></li>
                         <li class="list-inline-item"><a href="#" data-animate-hover="pulse" class="email"><i class="fa fa-envelope"></i></a></li>
                     </ul>
-                </div>
+                </div>-->
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="box text-uppercase mt-0 mb-small">

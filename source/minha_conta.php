@@ -1,4 +1,7 @@
 <?php
+    session_start();
+    include("conecta.php");
+    require_once("logica-usuario.php"); 
     require_once('cabecalho.php');
 ?>
 <div id="content">
@@ -18,7 +21,7 @@
                                 Lista de Desejos</a></li>
                         <li class="nav-item"><a href="minha_conta.php" class="nav-link active"><i class="fa fa-user"></i>
                                 Minha Conta</a></li>
-                        <li class="nav-item"><a href="index.php" class="nav-link"><i class="fa fa-sign-out"></i>
+                        <li class="nav-item"><a href="logout.php" class="nav-link"><i class="fa fa-sign-out"></i>
                                 Logout</a></li>
                     </ul>
                 </div>

@@ -1,5 +1,6 @@
 <?php
-    require_once('cabecalho.php');
+    session_start();    
+    require_once("cabecalho.php");
 ?>
 <div id="content">
   <div class="container">

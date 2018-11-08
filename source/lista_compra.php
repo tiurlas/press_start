@@ -1,7 +1,9 @@
 <?php
-    require_once('cabecalho.php');
-    require_once("banco-produtos.php");
+    session_start();
     include("conecta.php");
+    require_once("cabecalho.php");
+    require_once("banco-produtos.php"); 
+    require_once("logica-usuario.php");   
     listaTodos($conexao);
 ?>
 <div id="content">

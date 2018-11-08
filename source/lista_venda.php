@@ -1,4 +1,7 @@
 <?php
+    session_start();
+    include("conecta.php");
+    require_once("logica-usuario.php"); 
     require_once('cabecalho.php');
 ?>
 <div id="content">

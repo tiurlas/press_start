@@ -1,5 +1,7 @@
-<?php 
-require_once ("banco-usuario.php");
+<?php
+session_start();
+include("conecta.php");
+require_once("banco-usuario.php");
 require_once("logica-usuario.php");
 
 
@@ -8,3 +10,4 @@ $_SESSION["confirm"]= "Usuário cadastrado com sucesso";
 header("Location: registro.php");
 
 die();
+?>
